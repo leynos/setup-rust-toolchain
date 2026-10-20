@@ -7,3 +7,7 @@ edition = "2021"
 
 [dependencies]
 serde_as = "0.0.1"
+
+[profile.dev]
+incremental = false
+debug = 0
